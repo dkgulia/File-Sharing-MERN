@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin: ["https://file-sharing-mern-wyix.vercel.app/"],
+        origin: ["https://file-sharing-mern-wyix.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
     }
