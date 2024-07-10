@@ -5,7 +5,13 @@ import DBConnection from "./database/db.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://file-sharing-mern-wyix.vercel.app/"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 app.use("/", router);
 
 const PORT = 8000;
