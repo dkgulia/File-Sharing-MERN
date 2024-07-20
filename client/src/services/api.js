@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://file-sharing-mern.vercel.app'; // Your Vercel deployment URL
+const API_URL = 'https://file-sharing-app-duna.onrender.com'; 
 
 export const uploadFile = async (data) => {
     try {
